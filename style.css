@@ -1,0 +1,81 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+h2{
+    color: #fff;
+}
+
+.item {
+    padding: 2% 5%;
+   
+}  
+.header{
+    padding-right: 40%;
+}
+ul{
+    color: purple;
+}
+.nav-item{
+    padding: 0 0.5rem;
+}
+.nav-link{
+    color:#fff;
+    font-size: 1.2rem;
+    
+    
+}
+
+  .active:hover{
+      background: #7dbaec;
+      border-radius: 5px;
+      color: #fbffff;
+  }
+.bg_color{
+    background: #285172;
+    height: 15vh;
+    color: #DCFFFF;
+}
+.profile{
+    background: #2196f3;
+    width: 100%;
+    height: 30rem;
+    padding:10%;
+    text-align: center;
+    color: #f5f5f5;
+}
+.head_name_1{
+    background: #f5f5f5;
+    width: 100%;
+    height: 50%;
+    padding:10% 0.2rem;
+    text-align: center;  
+}
+.head_name_2{
+    background: #fff;
+    width: 100%;
+    height: 50%;
+    padding: 10% 5rem;
+    text-align: center;
+}
+
+hr{
+   width: 10%;
+    border-bottom:  5px dotted gray;
+  border-top: none;  
+  margin: 0 auto;
+}
+.profilePicture{
+    width: 150px;
+}
+.horizontal-line-name{
+    border-top: 5px solid #fff;
+    border-bottom: none;
+    margin: 0 auto;
+    
+}
